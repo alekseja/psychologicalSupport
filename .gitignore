@@ -36,3 +36,21 @@ build/
 
 ### Mac OS ###
 .DS_Store
+# Maven артефакты
+target/
+*.log
+!src/main/resources/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Локальные файлы ОС
+.DS_Store
+Thumbs.db
