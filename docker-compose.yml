@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./target/psychologicalSupport.war:/usr/local/tomcat/webapps/psychologicalSupport.war
